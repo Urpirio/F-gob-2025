@@ -1,0 +1,120 @@
+.section-3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.section-3 .div-1{
+    text-align: center;
+}
+.section-3 .div-1 h3{
+    color: #003579A1;
+}
+.section-3 .div-1 h2{
+    color: #003579;
+}
+
+.section-3 .div-2{
+    display: flex;
+    justify-content: space-between;
+}
+.section-3 .div-2 .containerCards .bar-1{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #7CC713;
+}
+.section-3 .div-2 .containerCards .bar-1 .inBar{
+    position: absolute;
+    height: 180px;
+    width: 10px;
+    background-color: #7CC713;
+    border-radius: 10px;
+} 
+.section-3 .div-2 .containerCards .bar-2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 200px;
+    height: 100px;
+    background-color: #FFC000;
+}
+.section-3 .div-2 .containerCards .bar-2 .inBar{
+    position: absolute;
+    height: 180px;
+    width: 10px;
+    background-color: #FFC000;
+    border-radius: 10px;
+} 
+
+
+.section-3 .div-2 .containerCards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section-3 .div-2 .containerCards .Cards{
+    /* border: 1px solid black; */
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #80808023;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+.section-3 .div-2 .containerCards .Cards .header img{
+    height: 120px;
+    width: 120px;
+}
+
+.section-3 .div-2 .containerCards .Cards .body{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.section-3 .div-2 .containerCards .Cards .body .T2{
+    /* border: 1px solid black; */
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background-color: #7CC713;
+}
+.section-3 .div-2 .containerCards .Cards .body .T1{
+    /* border: 1px solid black; */
+    color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background-color: #FFC000;
+}
+.section-3 .div-2 .containerCards .Cards .body p{
+    color: #003579;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.section-3 .div-3{
+    width: 97%;
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+.section-3 .div-3 button{
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5EAEFF;
+    color: white;
+    box-shadow: 0px 0px 10px 1px #80808023;
+    cursor: pointer;
+}
+
