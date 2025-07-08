@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    gap: 1.5rem;
+    padding: 0.5rem 2rem;
+    background: #f5f5f5;
+}
+
+.span-nav-1 {
+    color: #003876;
+}
+
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003876;
+    height: 72px;
+    padding: 0 2rem;
+}
+
+.img-1 img {
+    width: 9rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.tria {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.tria input {
+    border: none;
+    color: #003876;
+    border-radius: 20px;
+    width: 220px;
+    height: 2.2rem;
+    font-size: 1rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    position: relative;
+}
+
+.tria button {
+    background-color: whitesmoke;
+    color: #003876;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tria button img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav-3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    color: #003876;
+    width: 100%;
+    background-color: whitesmoke;
+    height: 55px;
+    padding: 0 2rem;
+}
+
+#select {
+    color: #003876;
+    border: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+}
+
+.nav-3 a {
+    text-decoration: none;
+    color: #003876;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: whitesmoke;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+.nav-3 a:hover {
+    background: #e6e6e6;
+}
+
+.bi {
+    color: #003876;
+    font-size: 1.3rem;
+}
+
+.buscador {
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    background-color: tomato;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    z-index: 2;
+}
+
+.buscador i {
+    color: #fff;
+}
+
+.buscar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    justify-content: end;
+
+}
