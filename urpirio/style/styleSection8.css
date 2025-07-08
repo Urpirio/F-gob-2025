@@ -1,0 +1,9 @@
+.section-8{
+    width: 100%;
+    display: flex;
+}
+
+.section-8 img{
+    width: 100%;
+    margin-top: -25px;
+}

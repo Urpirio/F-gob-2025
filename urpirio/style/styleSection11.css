@@ -1,0 +1,62 @@
+.section-11{
+    background: #003579;
+    display: flex;
+    justify-content: space-between;
+}
+.section-11 .div-1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.section-11 .div-1 img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.section-11 .div-3{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.section-11 .div-3 img{
+    max-width: 300px;
+    max-height: 300px;
+}
+.section-11 .div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-11 .div-2 .Cards{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 600px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 0px 20px 2px rgba(128, 128, 128, 0.092);
+}
+
+.section-11 .div-2 .Cards .header{
+    display: flex;
+}
+.section-11 .div-2 .Cards .header img{
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.section-11 .div-2 .Cards .header h3{
+    color: #003579;
+    margin: 0;
+    font-size: 22px;
+}
+.section-11 .div-2 .Cards p{
+    color: #0066CC;
+    margin: 0;
+    font-size: 18px;
+}
+
+.section-11 .div-2 .btn{
+    background: none;
+    border: none;
+    color: #5EAEFF;
+}
