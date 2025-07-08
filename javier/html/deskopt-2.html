@@ -3,36 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/javier/css/deskopt-2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 <body>
        <header>
         <div class="nav-1">
             <span>Este es una web oficial del Gobierno de la República Dominicana</span>
-            <span>Así es como puedes saberlo</span>
+            <span class="span-nav-1">Así es como puedes saberlo</span>
         </div>
 
-        <nav class="nav-2">
+        <nav class="nav-2" aria-label="Secondary navigation">
             
             <div class="img-1">
-     <img src="" alt="">
-     <img src="" alt="">
+     <img class="" src="../img/FirmaGBlanca.png" style="width: 10rem;" alt="">
+     <img src="../img/ogtic.png" style="width: 10rem;" alt="">
             </div>
        
-            <div class="">
+            <div class="tria">
+
+              <div class="buscar">
                 <input type="text">
+                <span class="buscador"><i style="color: white;" class="bi bi-search"></i></span>
+                </div>
+
                 <span>
-                    <i></i>
+                    <img class="" src="../img/grid-3x3-gap.svg" style="width: 2rem; color:white; " alt="">
                 </span>
-                <button><i></i> contacto</button>
+                <button><img src="../img/person-circle.svg" alt=""></img> contacto</button>
             </div>
         </nav>
-        <nav aria-label="Main navigation">
-            <select name="nosotros" id="select">
-                <option value="option">hola</option>
-            </select>
-            <a href="">soporte</a>
 
+
+        <nav class="nav-3" aria-label="Main navigation">
+            <select name="nosotros" id="select">
+                <option value="option">Nosotros</option>
+            </select>
+            <a class="a-nav-3" href="">soporte</a>
         </nav>
        </header> 
 </body>
