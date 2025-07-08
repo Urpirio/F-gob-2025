@@ -17,7 +17,6 @@ header {
     align-items: center;
     font-size: 14px;
     gap: 1.5rem;
-    padding: 0.5rem 2rem;
     background: #f5f5f5;
 }
 
@@ -150,4 +149,12 @@ header {
     margin-left: 2rem;
     justify-content: end;
 
+}
+.b-span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
 }
