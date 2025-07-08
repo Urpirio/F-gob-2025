@@ -45,6 +45,7 @@ header {
     display: flex;
     align-items: center;
     position: relative;
+    gap: 1rem;
 }
 
 .tria input {
@@ -122,7 +123,6 @@ header {
 
 .buscador {
     position: absolute;
-    right: 1.2rem;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
